@@ -48,13 +48,7 @@ pip install mne torch torchvision scikit-learn matplotlib scipy tqdm pandas
 
 ## Output figures
 
-Generated figures live in **`outputs/figures/`**. To embed a figure from this folder in the README (or any Markdown file in the repo), use the path relative to the repo root:
-
-```markdown
-![Short description](outputs/figures/filename.png)
-```
-
-Example: `![ERP comparison](outputs/figures/erp_comparison.png)` will show the image on GitHub when the file exists.
+Generated figures live in **`outputs/figures/`**. 
 
 | File | Description |
 |------|-------------|
