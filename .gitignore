@@ -1,0 +1,72 @@
+# VI-BCI .gitignore — keep repo small: code + figures only
+
+# -----------------------------------------------------------------------------
+# Data (large; download from Figshare)
+# -----------------------------------------------------------------------------
+dataset/
+
+# -----------------------------------------------------------------------------
+# Generated outputs — exclude big/regenerable; keep only figures if desired
+# -----------------------------------------------------------------------------
+outputs/preprocessed/
+outputs/models/
+outputs/logs/
+
+# Uncomment to exclude figures too (repo = code + docs only):
+# outputs/figures/
+
+# -----------------------------------------------------------------------------
+# Local / one-off (not needed for others)
+# -----------------------------------------------------------------------------
+archive/
+documentation/
+*.zip
+*.fif
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+*.log
+
+# -----------------------------------------------------------------------------
+# IDE / editor / OS
+# -----------------------------------------------------------------------------
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------------------------------------------
+# Jupyter
+# -----------------------------------------------------------------------------
+.ipynb_checkpoints/
