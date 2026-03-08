@@ -14,7 +14,7 @@ This project tries to answer that.
 
 ---
 
-## What We Found
+## What I Found
 
 **1. The signal is real.**
 
@@ -26,11 +26,11 @@ A transformer-based decoder trained on one session and tested on another achieve
 
 **3. Cross-subject generalization is hard.**
 
-When we trained on all subjects and tested on a held-out person (leave-one-subject-out), accuracy dropped. Every person's brain is wired slightly differently — this is the fundamental problem in BCI research and exactly what needs to be solved before any of this reaches clinical use.
+When I trained on all subjects and tested on a held-out person (leave-one-subject-out), accuracy dropped. Every person's brain is wired slightly differently — this is the fundamental problem in BCI research and exactly what needs to be solved before any of this reaches clinical use.
 
 **4. Mental imagery ability doesn't predict decoding accuracy.**
 
-We tested whether people who score higher on the VVIQ (a questionnaire measuring how vivid your mental imagery is) decode better. They don't — correlation r = 0.07, essentially zero. Vivid imagers don't produce more decodable EEG, at least not with this approach.
+I tested whether people who score higher on the VVIQ (a questionnaire measuring how vivid your mental imagery is) decode better. They don't — correlation r = 0.07, essentially zero. Vivid imagers don't produce more decodable EEG, at least not with this approach.
 
 ---
 
