@@ -1,31 +1,21 @@
-# VI-BCI .gitignore — keep repo small: code + figures only
-
-# -----------------------------------------------------------------------------
-# Data (large; download from Figshare)
-# -----------------------------------------------------------------------------
+# Data (download from Figshare)
 dataset/
 
-# -----------------------------------------------------------------------------
-# Generated outputs — exclude big/regenerable; keep only figures if desired
-# -----------------------------------------------------------------------------
+# Generated outputs
 outputs/preprocessed/
 outputs/models/
 outputs/logs/
 
-# Uncomment to exclude figures too (repo = code + docs only):
+# Optional: uncomment to exclude figures
 # outputs/figures/
 
-# -----------------------------------------------------------------------------
-# Local / one-off (not needed for others)
-# -----------------------------------------------------------------------------
+# Local
 archive/
 documentation/
 *.zip
 *.fif
 
-# -----------------------------------------------------------------------------
 # Python
-# -----------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
@@ -54,9 +44,7 @@ env/
 .env.*
 *.log
 
-# -----------------------------------------------------------------------------
-# IDE / editor / OS
-# -----------------------------------------------------------------------------
+# IDE / OS
 .idea/
 .vscode/
 .cursor/
@@ -66,7 +54,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# -----------------------------------------------------------------------------
 # Jupyter
-# -----------------------------------------------------------------------------
 .ipynb_checkpoints/
